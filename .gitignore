@@ -1,0 +1,25 @@
+node_modules
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+dist
+.DS_Store
+.turbo
+
+# Editor directories and files
+.vscode
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.retypewriter
+
+# don't ship with tests results
+results.json
