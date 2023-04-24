@@ -1,5 +1,5 @@
 {
-  "name": "@learnvue/challenge-template",
+  "name": "nuxt-challenge",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -12,11 +12,12 @@
   },
   "devDependencies": {
     "@types/node": "^18",
-    "@vitejs/plugin-vue": "^4.1.0",
-    "@vitejs/plugin-vue-jsx": "^3.0.1",
     "concurrently": "^8.0.1",
     "nuxt": "^3.4.2",
     "nuxt-vitest": "^0.6.10",
     "vitest": "^0.27.0"
+  },
+  "dependencies": {
+    "@learnvue/challenger": "0.0.1"
   }
 }

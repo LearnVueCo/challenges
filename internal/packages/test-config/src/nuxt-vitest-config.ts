@@ -1,6 +1,6 @@
 import { defineVitestConfig } from 'nuxt-vitest/config'
 
-export default defineVitestConfig({
+export const nuxtConfig = defineVitestConfig({
   test: {
     environment: 'nuxt',
     globals: true,

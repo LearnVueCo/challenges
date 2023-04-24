@@ -1,0 +1,38 @@
+{
+  "name": "@learnvue/challenger",
+  "version": "0.0.1",
+  "description": "Provide consistent tests for LearnVue challenges",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learnvueco/challenges.git"
+  },
+  "author": "Matt Maribojoc <matt@learnvue.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/learnvueco/challenges/issues"
+  },
+  "homepage": "https://github.com/learnvueco/challenges#readme",
+  "devDependencies": {
+    "unbuild": "^1.2.1"
+  },
+  "dependencies": {
+    "nuxt-vitest": "^0.6.10",
+    "vitest": "^0.30.1"
+  },
+  "peerDependencies": {
+    "@vitejs/plugin-vue": "*",
+    "@vitejs/plugin-vue-jsx": "*",
+    "vite": "*"
+  }
+}

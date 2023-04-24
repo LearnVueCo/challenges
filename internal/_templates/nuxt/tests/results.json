@@ -8,7 +8,7 @@
   "numFailedTests": 1,
   "numPendingTests": 0,
   "numTodoTests": 0,
-  "startTime": 1682302185183,
+  "startTime": 1682375449867,
   "success": false,
   "testResults": [
     {
@@ -20,7 +20,7 @@
           "fullName": " should return the runtimeConfig from nuxt.config",
           "status": "failed",
           "title": "should return the runtimeConfig from nuxt.config",
-          "duration": 4,
+          "duration": 5,
           "failureMessages": [
             "expected {} to deeply equal { hello: 'world' }"
           ],
@@ -30,11 +30,11 @@
           }
         }
       ],
-      "startTime": 1682302186666,
-      "endTime": 1682302186670,
+      "startTime": 1682375451499,
+      "endTime": 1682375451504,
       "status": "failed",
       "message": "",
-      "name": "/Users/matthewmaribojoc/Programming/LearnVue/learnvue-workspace/challenges/_templates/nuxt/tests/index.spec.ts"
+      "name": "/Users/matthewmaribojoc/Programming/LearnVue/learnvue-workspace/challenges/internal/_templates/nuxt/tests/index.spec.ts"
     }
   ]
 }
