@@ -20,6 +20,3 @@ dist
 *.sln
 *.sw?
 *.retypewriter
-
-# don't ship with tests results
-results.json
